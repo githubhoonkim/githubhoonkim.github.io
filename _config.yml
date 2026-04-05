@@ -1,17 +1,16 @@
-# -----------------------------------------------------------------------------
 # Site settings
-# -----------------------------------------------------------------------------
-
-title: "Intelligent Systems & Policy Lab"
-first_name: "Hoon"
-last_name: "Kim"
+title: "MINDS 연구실"
+first_name: "김"
+last_name: "훈"
 email: "hoon@inu.ac.kr"
-affiliation: "Incheon National University"
+affiliation: "인천대학교 전자공학과"
 
-# 중복되었던 description을 하나로 합쳤습니다.
+# 연구실 이름과 교수님 소개를 한글과 영어로 병기합니다.
 description: >
-  Professor at Incheon National University | Intelligent Systems & Policy Lab. 
-  Focusing on 6G Networks and AI Ethics (IEEE CertifAIEd).
+  **MINDS**: Machine Intelligence and Data Science Lab. <br>
+  **인천대학교 지능형 시스템 및 데이터 과학 연구실** <br>
+  지도교수: **김훈 (Hoon Kim)** <br>
+  연구분야: 6G 통신, AI 윤리 (IEEE CertifAIEd), 제조 지능화
 
 contact_note: >
   Feel free to reach out via email for research collaborations.
