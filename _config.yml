@@ -2,10 +2,13 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+title: "Intelligent Systems & Policy Lab"
+first_name: "Hoon"
+last_name: "Kim"
+email: "교수님 이메일"
+affiliation: "Incheon National University"
+description: "Professor at INU | AI Ethics & 6G Networks"
+
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
