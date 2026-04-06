@@ -440,16 +440,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
+            },},{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          description: "",
+          section: "News",},{id: "news-본-연구실-지도교수-김훈-이-한국연구재단-개인기초연구사업에-최종-선정되었습니다-5년-과제-약-5억원-규모-본-과제-수행을-위해-열정-있는-참여-연구원-대학원생-및-학부-연구생-을-모집합니다-6g-통신-ai-윤리-데이터-과학-분야에-관심-있는-학생들의-많은-지원-바랍니다-문의-김훈-교수-hoon-inu-ac-kr-공과대학-8호관",
+          title: '본 연구실(지도교수: 김훈)이 한국연구재단 개인기초연구사업에 최종 선정되었습니다. (5년 과제, 약 5억원 규모) 본...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
