@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href="https://www.inu.ac.kr">인천대학교</a> 전자공학부 지능형 시스템 및 데이터 과학 연구실
+subtitle: <a href="https://www.inu.ac.kr">인천대학교</a> 전자공학부 **지능형 시스템 및 데이터 과학 연구실**
 
 profile:
   align: right
@@ -26,8 +26,8 @@ latest_posts:
   limit: 3
 ---
 
-# 
-👋 인천대학교 **MINDS (Machine Intelligence and Data Science)** 연구실 홈페이지에 오신 것을 환영합니다.
+# 👋 반갑습니다!
+인천대학교 **MINDS (Machine Intelligence and Data Science)** 연구실 홈페이지에 오신 것을 환영합니다.
 
 저희 연구실은 **6G 통신 네트워크**, **AI 윤리 및 표준(IEEE CertifAIEd)**, 그리고 **제조 데이터 과학** 분야를 심도 있게 연구하고 있습니다. 특히 인공지능 기술이 우리 사회에 안전하고 지능적으로 적용될 수 있도록 기술적, 정책적 해법을 제시하는 데 집중하고 있습니다.
 
