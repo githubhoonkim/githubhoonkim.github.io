@@ -440,16 +440,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
           section: "News",},{id: "news-본-연구실-지도교수-김훈-이-한국연구재단-개인기초연구사업에-최종-선정되었습니다-5년-과제-약-5억원-규모-본-과제-수행을-위해-열정-있는-참여-연구원-대학원생-및-학부-연구생-을-모집합니다-6g-통신-ai-모델-및-신뢰성-데이터-과학-분야에-관심-있는-학생들의-많은-지원-바랍니다-문의-김훈-교수-hoon-inu-ac-kr-공과대학-8호관",
           title: '본 연구실(지도교수: 김훈)이 한국연구재단 개인기초연구사업에 최종 선정되었습니다(5년 과제, 약 5억원 규모). 본 과제...',
+          description: "",
+          section: "News",},{id: "news-본-연구실-minds-lab-의-연구-성과가-국제-저명-학술지인-ieee-access에-게재되었습니다-논문-제목-automated-detection-and-recognition-of-engraved-serial-numbers-on-metallic-surfaces-저자-김훈-hoon-kim-내용-금속-표면에-각인된-일련번호를-딥러닝-기반으로-자동-탐지-및-인식하는-기술을-제안하였으며-제조-지능화-및-자동-광학-검사-aoi-분야에서-높은-활용도가-기대됩니다-상세-내용은-publications-메뉴에서-확인하실-수-있습니다",
+          title: '본 연구실(MINDS Lab)의 연구 성과가 국제 저명 학술지인 IEEE Access에 게재되었습니다. 논문 제목:...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
