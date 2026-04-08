@@ -24,7 +24,13 @@ latest_posts:
   enabled: false  # 이 부분을 false로 고치면 화면에서 사라집니다.
   scrollable: true
   limit: 3
-  
+
+<div class="alert alert-info" role="alert">
+  <strong>🚀 [연구원 모집]</strong> 2026년 한국연구재단 개인기초연구사업(5년 과제) 선정에 따라 
+  함께 연구를 수행할 <b>석·박사 과정 대학원생 및 학부 연구생</b>을 모집합니다. 
+  6G, AI 윤리, 반도체 지능화에 관심 있는 학생은 언제든 연락 바랍니다!
+</div>
+
 # 👋 환영합니다!
 인천대학교 **MINDS (Machine Intelligence and Data Science)** 연구실 홈페이지에 오신 것을 환영합니다.
 
