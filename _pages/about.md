@@ -21,11 +21,10 @@ announcements:
   limit: 5
 
 latest_posts:
-  enabled: true
+  enabled: false  # 이 부분을 false로 고치면 화면에서 사라집니다.
   scrollable: true
   limit: 3
----
-
+  
 # 👋 환영합니다!
 인천대학교 **MINDS (Machine Intelligence and Data Science)** 연구실 홈페이지에 오신 것을 환영합니다.
 
