@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href="https://www.inu.ac.kr">인천대학교</a> 전자공학부 **지능형 시스템 및 데이터 과학 연구실**
+subtitle: <a href="https://www.inu.ac.kr">인천대학교</a> 전자공학부 <b>지능형 시스템 및 데이터 과학 연구실</b>
 
 profile:
   align: right
