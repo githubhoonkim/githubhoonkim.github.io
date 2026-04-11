@@ -440,10 +440,12 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-본-연구실-지도교수-김훈-이-한국연구재단-개인기초연구사업에-최종-선정되었습니다-5년-과제-약-5억원-규모-본-과제-수행을-위해-열정-있는-참여-연구원-대학원생-및-학부-연구생-을-모집합니다-6g-통신-ai-모델-및-신뢰성-데이터-과학-분야에-관심-있는-학생들의-많은-지원-바랍니다-문의-김훈-교수-hoon-inu-ac-kr-공과대학-8호관",
-          title: '본 연구실(지도교수: 김훈)이 한국연구재단 개인기초연구사업에 최종 선정되었습니다(5년 과제, 약 5억원 규모). 본 과제...',
+            },},{id: "news-축하-한국연구재단-개인기초연구사업-선정-및-연구원-모집",
+          title: '축하! 한국연구재단 개인기초연구사업 선정 및 연구원 모집',
           description: "",
-          section: "News",},{id: "news-본-연구실-minds-lab-의-연구-성과가-국제-저명-학술지인-ieee-access에-게재되었습니다-논문-제목-automated-detection-and-recognition-of-engraved-serial-numbers-on-metallic-surfaces-저자-김훈-hoon-kim-내용-금속-표면에-각인된-일련번호를-딥러닝-기반으로-자동-탐지-및-인식하는-기술을-제안하였으며-제조-지능화-및-자동-광학-검사-aoi-분야에서-높은-활용도가-기대됩니다-상세-내용은-publications-메뉴에서-확인하실-수-있습니다",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_1/";
+            },},{id: "news-본-연구실-minds-lab-의-연구-성과가-국제-저명-학술지인-ieee-access에-게재되었습니다-논문-제목-automated-detection-and-recognition-of-engraved-serial-numbers-on-metallic-surfaces-저자-김훈-hoon-kim-내용-금속-표면에-각인된-일련번호를-딥러닝-기반으로-자동-탐지-및-인식하는-기술을-제안하였으며-제조-지능화-및-자동-광학-검사-aoi-분야에서-높은-활용도가-기대됩니다-상세-내용은-publications-메뉴에서-확인하실-수-있습니다",
           title: '본 연구실(MINDS Lab)의 연구 성과가 국제 저명 학술지인 IEEE Access에 게재되었습니다. 논문 제목:...',
           description: "",
           section: "News",},{id: "news-본-연구실의-지도교수이신-김훈-교수님께서-국내-최대-전자공학-관련-학술단체인-대한전자공학회-ieie-의-부회장으로-선임되셨습니다-또한-학회-내-기술정책위원회-위원장-및-대외협력위원회-위원장직을-겸임하시게-되어-국내외-전자공학-기술-정책-수립과-산학협력-활성화에-중추적인-역할을-수행하실-예정입니다-앞으로-minds-연구실은-학회와의-긴밀한-협력을-통해-국가-기술-정책과-산업-발전에-더욱-기여할-수-있도록-노력하겠습니다",
