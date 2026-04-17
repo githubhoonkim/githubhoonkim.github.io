@@ -209,6 +209,14 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _pages/blog.md         # 블로그 제외
+  - _pages/publications.md # 논문 페이지 제외
+  - _pages/repositories.md # 레포지토리 제외
+  - _pages/projects.md # 레포지토리 제외
+  - _pages/teaching.md # 레포지토리 제외
+  - _pages/people.md # 레포지토리 제외
+  - _pages/submenus.md # 레포지토리 제외
+  
 keep_files:
   - CNAME
   - .nojekyll
