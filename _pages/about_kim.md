@@ -1,7 +1,7 @@
 <style>
   /* 제목(Highlights) 폰트 조절 */
   .profile-title {
-    font-size: 1.5rem !important; 
+    font-size: 1.4rem !important; 
     font-weight: bold;
     margin-bottom: 12px;
     color: #333;
@@ -10,7 +10,7 @@
 
   /* 본문 리스트 폰트 조절 */
   .profile-list {
-    font-size: 1.2rem !important; 
+    font-size: 1.1rem !important; 
     line-height: 1.7;              
     list-style-type: disc;
     padding-left: 20px;
