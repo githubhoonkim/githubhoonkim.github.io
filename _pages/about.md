@@ -69,9 +69,7 @@ latest_posts:
   .post-list-description, .more-info {
     display: none !important;
   }
-</style>
 
-<style>
   /* 프로필 사진 크기 강제 조정 */
   .profile img {
     width: 200px !important;  /* 가로 크기 */
