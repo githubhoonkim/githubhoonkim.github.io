@@ -6,7 +6,7 @@ subtitle: <a href="https://www.inu.ac.kr">인천대학교</a> 전자공학부 <b
 
 profile:
   align: right
-  image: logo.jpg   # <--- 여기서 사진 파일명을 수정하시면 사진이 바뀝니다!
+  image: logo.JPG   # <--- 여기서 사진 파일명을 수정하시면 사진이 바뀝니다!
   image_circular: false
   address: >
     <p>인천광역시 연수구 아카데미로 119</p>
