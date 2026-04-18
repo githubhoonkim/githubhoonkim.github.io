@@ -13,13 +13,35 @@ profiles:
     image_circular: false
     more_info: >
       <style>
-        .profile img { 
-          width: 130px !important; 
-          max-width: 130px !important; 
+        /* 사진과 아래 텍스트 전체를 감싸는 컨테이너 */
+        .profile.float-right {
+          max-width: 150px !important; /* 전체 폭 제한 */
+          display: flex;
+          flex-direction: column;
+          align-items: center; /* 가로 중앙 정렬 */
+          text-align: center;  /* 텍스트 중앙 정렬 */
+          margin-left: 20px;
+        }
+
+        /* 사진 스타일 */
+        .profile.float-right img {
+          width: 140px !important; 
+          max-width: 140px !important;
           height: auto !important;
+          margin-bottom: 10px; /* 사진과 이름 사이 간격 */
+          border: 1px solid #ddd; /* 사진 테두리 (선택 사항) */
+          padding: 2px;
+        }
+
+        /* 아래 정보 텍스트 스타일 */
+        .profile.float-right p {
+          margin: 2px 0 !important; /* 줄 간격 좁게 */
+          font-size: 0.85rem;      /* 글씨 크기 살짝 작게 */
+          line-height: 1.4;
+          word-break: keep-all;    /* 단어 끊김 방지 */
         }
       </style>
-      <p>인천대학교 전자공학부 교수</p>
-      <p>사무실 : 공과대학(8호관) 456호 </p>
+      <p><strong>인천대학교 전자공학부 교수</strong></p>
+      <p>사무실 : 공과대학(8호관) 456호</p>
       <p>이메일 : hoon@inu.ac.kr</p>
 ---
