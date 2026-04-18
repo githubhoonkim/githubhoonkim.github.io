@@ -55,38 +55,40 @@ latest_posts:
 * **[2026-03-15] 한국연구재단 개인기초연구사업 선정** : 6G 및 AI 신뢰성 연구를 위한 5년 장기 국책 과제에 선정되었습니다. 해당 분야를 함께 개척해 나갈 열정 있는 학생 연구원을 상시 모집합니다.
 
 <style>
-  /* 1. 프로필 영역 전체를 우측 끝으로 바짝 붙이기 */
-  .profile {
-    float: right !important;
-    position: relative !important;
-    margin-left: 100px !important;  /* 본문 텍스트와의 왼쪽 간격 확보 */
-    margin-right: 0px !important;   /* 우측 여백 제거하여 끝으로 붙임 */
-    margin-top: 10px !important;
-    width: 200px !important;       /* 프로필 영역의 전체 너비 고정 */
-    z-index: 10;
+  /* 1. 본문 텍스트가 로고를 침범하지 못하도록 너비 제한 */
+  .post-content {
+    display: flow-root; /* float 요소와 겹치지 않게 설정 */
   }
 
-  /* 2. 로고 이미지 정렬 및 크기 */
+  /* 2. 프로필 영역(로고)을 우측 끝에 바짝 밀착 */
+  .profile {
+    float: right !important;
+    width: 200px !important;       /* 로고 크기 고정 */
+    margin-left: 50px !important;  /* 본문과의 최소 간격 */
+    margin-right: -10px !important; /* 마이너스 마진으로 우측 여백 제거 */
+    margin-top: 0px !important;
+    padding: 0 !important;
+  }
+
+  /* 3. 로고 이미지 자체 설정 */
   .profile img {
-    width: 100% !important;        /* 위에서 정한 200px에 맞춤 */
+    width: 100% !important;
     height: auto !important;
     display: block !important;
-    margin-left: auto !important;  /* 이미지 자체도 우측 정렬 */
-    box-shadow: none !important;   /* 그림자 제거하여 깔끔하게 배치 */
+    box-shadow: none !important;   /* 그림자 제거하여 바짝 붙어 보이게 함 */
     border: none !important;
   }
 
-  /* 3. 하단 자동 섹션(news 등) 차단 유지 */
-  .news, #news, .publications, #selected-publications, .post-list-description {
+  /* 4. 하단 자동 섹션 차단 */
+  .news, #news, .publications, #selected-publications {
     display: none !important;
   }
 
-  /* 4. 모바일 화면에서도 로고가 겹치지 않게 처리 */
+  /* 모바일 대응 */
   @media (max-width: 800px) {
     .profile {
       float: none !important;
-      display: block !important;
-      margin: 0 auto 20px auto !important; /* 모바일에서는 중앙 정렬 */
+      margin: 0 auto 20px auto !important;
       width: 150px !important;
     }
   }
