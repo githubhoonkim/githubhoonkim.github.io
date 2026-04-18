@@ -70,19 +70,25 @@ latest_posts:
     display: none !important;
   }
 
-  /* 프로필 사진 크기 강제 조정 */
-  .profile img {
-    width: 150px !important;  /* 가로 크기 */
-    height: 200px !important;  /* 세로 비율 유지 */
-    margin-top: 20px;         /* 위쪽 여백 */
-    border: 1px solid #ddd;   /* (선택) 사진 테두리 추가 */
-    border-radius: 10px;      /* (선택) 모서리 둥글게 */
+  <style>
+  /* 프로필 영역 전체를 우측 끝으로 밀기 */
+  .profile {
+    float: right !important;
+    margin-left: 40px !important; /* 본문 텍스트와의 간격 확보 */
+    margin-top: 10px !important;
+    max-width: 25% !important;   /* 화면에서 차지하는 비중 조절 */
   }
 
-  /* 사진 위치 정렬 보정 */
-  .profile {
-    float: right;             /* 우측 정렬 */
-    margin-left: 30px;        /* 본문과의 간격 */
-    margin-bottom: 20px;
+  /* 로고 이미지 크기 세밀 조정 */
+  .profile img {
+    width: 180px !important;     /* 로고 가로 크기 (숫자를 키우면 커집니다) */
+    height: auto !important;
+    border: none !important;     /* 테두리 제거 */
+    box-shadow: none !important; /* 그림자 제거 (깔끔하게 하려면) */
+  }
+
+  /* 하단 자동 생성 섹션 차단 유지 */
+  .news, #news, .publications, #selected-publications, .post-list-description {
+    display: none !important;
   }
 </style>
