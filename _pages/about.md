@@ -6,7 +6,7 @@ subtitle: <a href="https://www.inu.ac.kr">인천대학교</a> 전자공학부 <b
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: logo.jpg
   image_circular: false
   address: >
     <p>인천광역시 연수구 아카데미로 119</p>
