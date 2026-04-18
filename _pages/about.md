@@ -55,12 +55,18 @@ latest_posts:
 * **[2026-03-15] 한국연구재단 개인기초연구사업 선정** : 6G 및 AI 신뢰성 연구를 위한 5년 장기 국책 과제에 선정되었습니다. 해당 분야를 함께 개척해 나갈 열정 있는 학생 연구원을 상시 모집합니다.
 
 <style>
-  /* 하단에 자동으로 붙는 news 및 publications 섹션을 강제로 숨김 */
-  #news, 
-  #selected-publications, 
-  .archive__item, 
-  h2:has(#news), 
-  h2:has(#selected-publications) {
+  /* 테마에서 자동으로 생성하는 news 섹션 차단 */
+  .news, #news, .news-container {
+    display: none !important;
+  }
+
+  /* 테마에서 자동으로 생성하는 publications 섹션 차단 */
+  .publications, #selected-publications, .publications-container {
+    display: none !important;
+  }
+
+  /* "No news so far..." 문구와 하단 여백 차단 */
+  .post-list-description, .more-info {
     display: none !important;
   }
 </style>
