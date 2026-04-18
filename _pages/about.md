@@ -53,3 +53,14 @@ latest_posts:
 * **[2026-03-20] IEEE Access 논문 게재 (제조 지능화 연구)** : 금속 표면 각인 번호 자동 인식을 위한 딥러닝 기술 연구가 IEEE Access에 게재되었습니다.
 
 * **[2026-03-15] 한국연구재단 개인기초연구사업 선정** : 6G 및 AI 신뢰성 연구를 위한 5년 장기 국책 과제에 선정되었습니다. 해당 분야를 함께 개척해 나갈 열정 있는 학생 연구원을 상시 모집합니다.
+
+<style>
+  /* 하단에 자동으로 붙는 news 및 publications 섹션을 강제로 숨김 */
+  #news, 
+  #selected-publications, 
+  .archive__item, 
+  h2:has(#news), 
+  h2:has(#selected-publications) {
+    display: none !important;
+  }
+</style>
