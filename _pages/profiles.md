@@ -25,8 +25,8 @@ profiles:
 
         /* 사진 스타일 */
         .profile.float-right img {
-          width: 140px !important; 
-          max-width: 140px !important;
+          width: 150px !important; 
+          max-width: 150px !important;
           height: auto !important;
           margin-bottom: 10px; /* 사진과 이름 사이 간격 */
           border: 1px solid #ddd; /* 사진 테두리 (선택 사항) */
