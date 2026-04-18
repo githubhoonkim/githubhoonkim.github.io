@@ -1,2 +1,12 @@
+---
+layout: about
+inline: true
+---
 
-Professor Hoon Kim is Professor of electronics engineering at Incheon National University after serving as a senior researcher at Samsung Electronics, a secretary of the Ministry of Information and Communication, and a visiting researcher at Stanford University. He has been awarded the Outstanding Researcher Award and the Outstanding Lecture Award, and has contributed to academic activities and human resources training by serving as the head of the national project and the chairman of the organizing committee of domestic and international academic conferences. In recognition of this contribution, he also received a special award at the 16th ICT Papers Contest (December 2024) hosted by the electronic newspaper. In addition, he served as vice chairman of the Incheon Data-Based Administration Committee and researcher of the Incheon Techno Park Digital Data Division, and is currently carrying out various activities based on his expertise in AI and data convergence fields, including the International Electrical and Electronics Society (IEEE) AI Ethics Certification Senior Examiner and the Ministry of Science and Technology, Information and Communication Data Transaction.
+### 주요 경력 및 강의 (Highlights)
+
+* **인천대학교**: 교수 및 사물인터넷빅데이터연구센터장 (2008.09 ~ 현재)
+* **KAIST**: 전기및전자공학(학사), 정보통신공학(석사 및 박사) 학위 취득
+* **주요 강의**: 차세대통신, 빅데이터공학, 반도체 데이터사이언스 등
+* **스탠포드/인천시**: 방문교수 및 데이터기반행정위 부위원장(2019-2021) 역임
+* **정부/산업체**: 정보통신부 사무관, 삼성전자 책임연구원, ETRI 위촉연구원 역임
