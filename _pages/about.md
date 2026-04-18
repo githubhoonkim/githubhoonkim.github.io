@@ -79,7 +79,7 @@ latest_posts:
   }
 
   /* 4. 불필요한 섹션 숨기기 유지 */
-  .news, #news, .publications, #selected-publications {
+  .news, #news, .publications, .cv, .submenus, #selected-publications {
     display: none !important;
   }
 
