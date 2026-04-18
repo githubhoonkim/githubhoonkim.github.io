@@ -6,17 +6,17 @@ subtitle: <a href="https://www.inu.ac.kr">인천대학교</a> 전자공학부 <b
 
 profile:
   align: right
-  image: logo.jpg
+  image: logo.jpg   # <--- 여기서 사진 파일명을 수정하시면 사진이 바뀝니다!
   image_circular: false
   address: >
     <p>인천광역시 연수구 아카데미로 119</p>
     <p>인천대학교 공과대학(8호관)</p>
 
-selected_papers: true
+selected_papers: false  # <--- true에서 false로 변경 (논문 섹션 제거)
 social: true
 
 announcements:
-  enabled: true
+  enabled: false       # <--- true에서 false로 변경 (시스템 뉴스 제거)
   scrollable: true
   limit: 5
 
