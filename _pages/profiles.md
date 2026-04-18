@@ -6,7 +6,6 @@ description: members of the lab
 nav: true
 nav_order: 7
 
-# 여기에 이미지 크기를 조절하는 CSS를 살짝 추가합니다
 header_includes:
   - <style>#profiles .profile img { max-width: 200px !important; margin-left: auto; }</style>
 
