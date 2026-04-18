@@ -36,4 +36,5 @@
   <li><span class="highlight-bold">정부/산업체</span>: 정보통신부 사무관, 삼성전자 책임연구원, ETRI 위촉연구원 등 역임</li>
   <li><span class="highlight-bold">외부활동</span>: 스탠포드대 방문교수, 인천시 데이터기반행정위 부위원장 등 역임</li>
   <li><span class="highlight-bold">주요 강의</span>: 차세대통신, 빅데이터공학, 반도체 데이터사이언스 등</li>
+  <li><span class="highlight-bold">자격증</span>:  AI 윤리인증 수석심사원(IEEE), 데이터거래사(과기정통부)</li>
 </ul>
