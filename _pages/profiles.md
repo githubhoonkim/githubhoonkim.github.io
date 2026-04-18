@@ -41,7 +41,7 @@ profiles:
           word-break: keep-all;    /* 단어 끊김 방지 */
         }
       </style>
-      <p><strong>인천대학교 전자공학부 교수</strong></p>
-      <p>사무실 : 공과대학(8호관) 456호</p>
-      <p>이메일 : hoon@inu.ac.kr</p>
+      <p><strong>전자공학부 교수</strong></p>
+      <p>8호관 456호</p>
+      <p>hoon@inu.ac.kr</p>
 ---
