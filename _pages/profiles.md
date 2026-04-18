@@ -15,7 +15,7 @@ profiles:
       <style>
         /* 사진 크기를 조절하는 부분입니다. 숫자를 줄일수록 사진이 작아집니다. */
         #profiles .profile img { 
-          max-width: 150px !important; 
+          max-width: 120px !important; 
           width: 100%;
           height: auto;
           margin-left: auto; 
