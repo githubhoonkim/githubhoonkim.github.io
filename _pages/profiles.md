@@ -14,7 +14,7 @@ profiles:
     content: about_kim.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Tel) 032-835-8429</p>
-      <p>Add) R456, 8th Building, 119 Academy-ro, Incheon, Republic of Korea </p>
-      <p>Mail) hoon@inu.ac.kr</p>
+      <p>인천대학교 전자공학부 교수</p>
+      <p>사무실 : 공과대학(8호관) 456호 </p>
+      <p>이메일 : hoon@inu.ac.kr</p>
 ---
