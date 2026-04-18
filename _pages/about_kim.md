@@ -1,7 +1,7 @@
 <style>
   /* 제목(Highlights) 폰트 조절 */
   .profile-title {
-    font-size: 1.4rem !important; 
+    font-size: 1.5rem !important; 
     font-weight: bold;
     margin-bottom: 12px;
     color: #333;
@@ -10,7 +10,7 @@
 
   /* 본문 리스트 폰트 조절 */
   .profile-list {
-    font-size: 1.0rem !important; 
+    font-size: 1.2rem !important; 
     line-height: 1.7;              
     list-style-type: disc;
     padding-left: 20px;
@@ -28,7 +28,7 @@
   }
 </style>
 
-<span class="profile-title">주요 경력 및 강의 (Highlights)</span>
+<span class="profile-title">주요 경력 및 강의</span>
 
 <ul class="profile-list">
   <li><span class="highlight-bold">인천대학교</span>: 교수(2008~현재), 사물인터넷빅데이터연구센터장</li>
