@@ -55,36 +55,35 @@ latest_posts:
 * **[2026-03-15] 한국연구재단 개인기초연구사업 선정** : 6G 및 AI 신뢰성 연구를 위한 5년 장기 국책 과제에 선정되었습니다. 해당 분야를 함께 개척해 나갈 열정 있는 학생 연구원을 상시 모집합니다.
 
 <style>
-  /* 1. 본문 텍스트가 로고를 침범하지 못하도록 너비 제한 */
+  /* 1. 본문 전체 너비를 넓히고 로고와의 간격 좁히기 */
   .post-content {
-    display: flow-root; /* float 요소와 겹치지 않게 설정 */
+    display: block !important;
+    width: 100% !important;
   }
 
-  /* 2. 프로필 영역(로고)을 우측 끝에 바짝 밀착 */
+  /* 2. 로고 영역 설정: 우측 끝 정렬 및 본문 침범 허용 */
   .profile {
     float: right !important;
-    width: 200px !important;       /* 로고 크기 고정 */
-    margin-left: 50px !important;  /* 본문과의 최소 간격 */
-    margin-right: -10px !important; /* 마이너스 마진으로 우측 여백 제거 */
-    margin-top: 0px !important;
+    width: 180px !important;       /* 로고 크기 살짝 조절 */
+    margin-left: 20px !important;  /* 본문과의 간격을 20px로 확 줄임 */
+    margin-right: -10px !important; /* 우측 끝 밀착 */
+    margin-top: 5px !important;
     padding: 0 !important;
   }
 
-  /* 3. 로고 이미지 자체 설정 */
+  /* 3. 로고 이미지 이미지 자체 설정 */
   .profile img {
     width: 100% !important;
     height: auto !important;
-    display: block !important;
-    box-shadow: none !important;   /* 그림자 제거하여 바짝 붙어 보이게 함 */
-    border: none !important;
+    box-shadow: none !important;
   }
 
-  /* 4. 하단 자동 섹션 차단 */
+  /* 4. 불필요한 섹션 숨기기 유지 */
   .news, #news, .publications, #selected-publications {
     display: none !important;
   }
 
-  /* 모바일 대응 */
+  /* 모바일에서 글자가 너무 좁아지지 않게 처리 */
   @media (max-width: 800px) {
     .profile {
       float: none !important;
