@@ -59,7 +59,7 @@ latest_posts:
   .profile {
     float: right !important;
     position: relative !important;
-    margin-left: 50px !important;  /* 본문 텍스트와의 왼쪽 간격 확보 */
+    margin-left: 100px !important;  /* 본문 텍스트와의 왼쪽 간격 확보 */
     margin-right: 0px !important;   /* 우측 여백 제거하여 끝으로 붙임 */
     margin-top: 10px !important;
     width: 200px !important;       /* 프로필 영역의 전체 너비 고정 */
