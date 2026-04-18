@@ -55,40 +55,39 @@ latest_posts:
 * **[2026-03-15] 한국연구재단 개인기초연구사업 선정** : 6G 및 AI 신뢰성 연구를 위한 5년 장기 국책 과제에 선정되었습니다. 해당 분야를 함께 개척해 나갈 열정 있는 학생 연구원을 상시 모집합니다.
 
 <style>
-  /* 테마에서 자동으로 생성하는 news 섹션 차단 */
-  .news, #news, .news-container {
-    display: none !important;
-  }
-
-  /* 테마에서 자동으로 생성하는 publications 섹션 차단 */
-  .publications, #selected-publications, .publications-container {
-    display: none !important;
-  }
-
-  /* "No news so far..." 문구와 하단 여백 차단 */
-  .post-list-description, .more-info {
-    display: none !important;
-  }
-
-  <style>
-  /* 프로필 영역 전체를 우측 끝으로 밀기 */
+  /* 1. 프로필 영역 전체를 우측 끝으로 바짝 붙이기 */
   .profile {
     float: right !important;
-    margin-left: 60px !important; /* 본문 텍스트와의 간격 확보 */
+    position: relative !important;
+    margin-left: 50px !important;  /* 본문 텍스트와의 왼쪽 간격 확보 */
+    margin-right: 0px !important;   /* 우측 여백 제거하여 끝으로 붙임 */
     margin-top: 10px !important;
-    max-width: 25% !important;   /* 화면에서 차지하는 비중 조절 */
+    width: 200px !important;       /* 프로필 영역의 전체 너비 고정 */
+    z-index: 10;
   }
 
-  /* 로고 이미지 크기 세밀 조정 */
+  /* 2. 로고 이미지 정렬 및 크기 */
   .profile img {
-    width: 180px !important;     /* 로고 가로 크기 (숫자를 키우면 커집니다) */
-    height: 220px !important;
-    border: none !important;     /* 테두리 제거 */
-    box-shadow: none !important; /* 그림자 제거 (깔끔하게 하려면) */
+    width: 100% !important;        /* 위에서 정한 200px에 맞춤 */
+    height: auto !important;
+    display: block !important;
+    margin-left: auto !important;  /* 이미지 자체도 우측 정렬 */
+    box-shadow: none !important;   /* 그림자 제거하여 깔끔하게 배치 */
+    border: none !important;
   }
 
-  /* 하단 자동 생성 섹션 차단 유지 */
+  /* 3. 하단 자동 섹션(news 등) 차단 유지 */
   .news, #news, .publications, #selected-publications, .post-list-description {
     display: none !important;
+  }
+
+  /* 4. 모바일 화면에서도 로고가 겹치지 않게 처리 */
+  @media (max-width: 800px) {
+    .profile {
+      float: none !important;
+      display: block !important;
+      margin: 0 auto 20px auto !important; /* 모바일에서는 중앙 정렬 */
+      width: 150px !important;
+    }
   }
 </style>
