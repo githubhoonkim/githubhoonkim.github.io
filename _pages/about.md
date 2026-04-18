@@ -70,3 +70,21 @@ latest_posts:
     display: none !important;
   }
 </style>
+
+<style>
+  /* 프로필 사진 크기 강제 조정 */
+  .profile img {
+    width: 200px !important;  /* 가로 크기 */
+    height: auto !important;  /* 세로 비율 유지 */
+    margin-top: 20px;         /* 위쪽 여백 */
+    border: 1px solid #ddd;   /* (선택) 사진 테두리 추가 */
+    border-radius: 10px;      /* (선택) 모서리 둥글게 */
+  }
+
+  /* 사진 위치 정렬 보정 */
+  .profile {
+    float: right;             /* 우측 정렬 */
+    margin-left: 30px;        /* 본문과의 간격 */
+    margin-bottom: 20px;
+  }
+</style>
