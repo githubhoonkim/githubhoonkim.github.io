@@ -82,7 +82,7 @@ latest_posts:
   /* 로고 이미지 크기 세밀 조정 */
   .profile img {
     width: 180px !important;     /* 로고 가로 크기 (숫자를 키우면 커집니다) */
-    height: auto !important;
+    height: 220px !important;
     border: none !important;     /* 테두리 제거 */
     box-shadow: none !important; /* 그림자 제거 (깔끔하게 하려면) */
   }
