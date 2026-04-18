@@ -410,10 +410,7 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_3/";
-            },},{id: "news-본-연구실의-지도교수이신-김훈-교수가-세계-최대-기술-표준-기구인-ieee에서-주관하는-ieee-certifaied-수석심사원-lead-assessor-으로서-최상위-과정인-ai-윤리-인증-master-과정을-성공적으로-이수하였습니다-이-과정은-인공지능-시스템의-투명성-책임성-알고리즘-편향성-등을-평가하는-전문-심사-역량을-강화하는-마스터-클래스로-향후-국내외-ai-윤리-표준화-및-인증-심사-분야에서-선도적인-역할을-수행할-예정입니다-minds-연구실은-이러한-전문성을-바탕으로-안전하고-신뢰할-수-있는-ai-기술-발전에-기여하겠습니다",
-          title: '본 연구실의 지도교수이신 김훈 교수가 세계 최대 기술 표준 기구인 IEEE에서 주관하는 IEEE...',
-          description: "",
-          section: "News",},{id: "projects-project-1",
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
