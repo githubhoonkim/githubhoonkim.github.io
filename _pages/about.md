@@ -72,8 +72,8 @@ latest_posts:
 
   /* 프로필 사진 크기 강제 조정 */
   .profile img {
-    width: 100px !important;  /* 가로 크기 */
-    height: auto !important;  /* 세로 비율 유지 */
+    width: 150px !important;  /* 가로 크기 */
+    height: 200px !important;  /* 세로 비율 유지 */
     margin-top: 20px;         /* 위쪽 여백 */
     border: 1px solid #ddd;   /* (선택) 사진 테두리 추가 */
     border-radius: 10px;      /* (선택) 모서리 둥글게 */
