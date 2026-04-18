@@ -405,11 +405,6 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-김훈-교수-대한전자공학회-ieie-부회장-및-위원장-선임",
-          title: '김훈 교수, 대한전자공학회(IEIE) 부회장 및 위원장 선임',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_3/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
