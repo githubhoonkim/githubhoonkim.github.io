@@ -14,8 +14,8 @@ profiles:
     more_info: >
       <style>
         .profile img { 
-          width: 120px !important; 
-          max-width: 120px !important; 
+          width: 130px !important; 
+          max-width: 130px !important; 
           height: auto !important;
         }
       </style>
