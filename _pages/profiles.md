@@ -35,9 +35,9 @@ profiles:
 
         /* 아래 정보 텍스트 스타일 */
         .profile.float-right p {
-          margin: 2px 0 !important; /* 줄 간격 좁게 */
+          margin: 1px 0 !important; /* 줄 간격 좁게 */
           font-size: 0.85rem;      /* 글씨 크기 살짝 작게 */
-          line-height: 1.4;
+          line-height: 1.1;
           word-break: keep-all;    /* 단어 끊김 방지 */
         }
       </style>
