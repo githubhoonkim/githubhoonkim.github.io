@@ -28,14 +28,15 @@ profiles:
           width: 150px !important; 
           max-width: 150px !important;
           height: auto !important;
-          margin-bottom: 10px; /* 사진과 이름 사이 간격 */
+          margin-bottom: 5px; /* 사진과 이름 사이 간격 */
           border: 1px solid #ddd; /* 사진 테두리 (선택 사항) */
           padding: 2px;
         }
 
         /* 아래 정보 텍스트 스타일 */
         .profile.float-right p {
-          margin: 1px 0 !important; /* 줄 간격 좁게 */
+          margin: .2px 0 !important; /* 줄 간격 좁게 */
+          padding: 0 !important;     /* 안쪽 여백 완전 제거 */ 
           font-size: 0.85rem;      /* 글씨 크기 살짝 작게 */
           line-height: 1.1;
           word-break: keep-all;    /* 단어 끊김 방지 */
