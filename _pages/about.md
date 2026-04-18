@@ -74,7 +74,7 @@ latest_posts:
   /* 프로필 영역 전체를 우측 끝으로 밀기 */
   .profile {
     float: right !important;
-    margin-left: 40px !important; /* 본문 텍스트와의 간격 확보 */
+    margin-left: 60px !important; /* 본문 텍스트와의 간격 확보 */
     margin-top: 10px !important;
     max-width: 25% !important;   /* 화면에서 차지하는 비중 조절 */
   }
